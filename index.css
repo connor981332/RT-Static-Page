@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  /*background-color: lightblue;*/
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.fullScreenHeader {
+  height: 100%;
+  margin: 0;
+  background-image: url("https://ride-tracker-assets.s3.us-east-2.amazonaws.com/black-and-white-car-classic-474.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pictureTextOverlay {
+  padding: 50px;
+  padding-top: 350px;
+  font-size: 100px;
+  color: #e6e6e6;
+  text-align: center;
+  letter-spacing: .1em;
+  text-shadow:
+    -8px -8px 8px #111,
+    8px 8px 8px #363636;
+}
+
+.secondScreen {
+  height: 400px;
+}
+
+.centeredText {
+  text-align: center;
+  vertical-align: middle;
+}
